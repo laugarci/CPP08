@@ -6,7 +6,7 @@
 /*   By: laugarci <laugarci@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 17:29:08 by laugarci          #+#    #+#             */
-/*   Updated: 2024/02/29 16:25:18 by laugarci         ###   ########.fr       */
+/*   Updated: 2024/02/29 17:16:31 by laugarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,20 @@ void more_test()
 		it++;
 	}
 
+	std::cout << BGRED "[ String test ]" RESET<< std::endl;
+	MutantStack<std::string> str;
+	str.push("Laura");
+	str.push("aura");
+	str.push("ura");
+	str.push("ra");
+	str.push("a");
+	MutantStack<std::string>::iterator r = str.begin();
+	MutantStack<std::string>::iterator u = str.end();
+	while (r != u)
+	{
+		std::cout << *r << std::endl;
+		r++;
+	}
 }
 
 int subject_test()
