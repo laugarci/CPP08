@@ -6,11 +6,11 @@
 #    By: laugarci <laugarci@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/14 13:17:51 by laugarci          #+#    #+#              #
-#    Updated: 2024/02/28 17:29:27 by laugarci         ###   ########.fr        #
+#    Updated: 2024/02/29 16:07:36 by laugarci         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = easyFind
+NAME = MutantStack
 
 SRC_FILES = main.cpp
 OBJ_DIR = objs/
