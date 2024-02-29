@@ -6,11 +6,11 @@
 #    By: laugarci <laugarci@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/14 13:17:51 by laugarci          #+#    #+#              #
-#    Updated: 2024/02/28 16:16:15 by laugarci         ###   ########.fr        #
+#    Updated: 2024/02/29 15:21:42 by laugarci         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = easyFind
+NAME = span
 
 SRC_FILES = main.cpp Span.cpp
 OBJ_DIR = objs/
