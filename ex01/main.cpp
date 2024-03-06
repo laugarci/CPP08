@@ -6,7 +6,7 @@
 /*   By: laugarci <laugarci@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/28 14:14:45 by laugarci          #+#    #+#             */
-/*   Updated: 2024/02/28 17:05:49 by laugarci         ###   ########.fr       */
+/*   Updated: 2024/03/06 15:50:24 by laugarci         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,8 +72,6 @@ int main()
 	} catch (std::exception& e) {
 		std::cout << "Error" << std::endl;
 	}
-
-
 
 	return (0);
 }
